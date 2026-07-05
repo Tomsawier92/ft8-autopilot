@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.hypothesis/
+
+# Runtime / personal (never commit)
+forgalminaplo/live/
+forgalminaplo/qso.jsonl
+forgalminaplo/naplo.txt
+forgalminaplo/upload.adi
+forgalminaplo/station.json
+forgalminaplo/backup/
+logs/
+state/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Build artifacts
+opt-lab/bench_results.json

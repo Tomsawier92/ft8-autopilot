@@ -1,0 +1,25 @@
+{
+  "callsign": "N0CALL",
+  "operator_name": "Operator",
+  "operator_legal_name": "",
+  "grid": "FN31",
+  "qth": "Example City",
+  "qth_detail": "",
+  "country": "United States",
+  "tx_power_w": 5,
+  "ptt_port": "/dev/ttyUSB0",
+  "ptt_baud": 115200,
+  "tx_audio_device": "pulse",
+  "cq_min_snr": -18,
+  "cq_repeat_cycles": 3,
+  "pro_operator": {
+    "enabled": false,
+    "priority": "balanced",
+    "min_snr": -20,
+    "max_snr": 3,
+    "min_distance_km": 0,
+    "prefer_weak_bonus": true,
+    "defer_cq_pick": true,
+    "skip_worked_today": true
+  }
+}
